@@ -1,0 +1,5 @@
+name: PE Get Start
+description: Manage PE Get Start 
+core: 8.x
+package: Custom
+type: module

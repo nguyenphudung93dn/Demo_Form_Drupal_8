@@ -1,0 +1,15 @@
+pegetstart.form:
+ path: '/pegetstart/getstart'
+ defaults:
+   _title: 'Application form'
+   _form: '\Drupal\pegetstart\Form\PEGetStartForm'
+ requirements:
+   _permission: 'access content'
+
+pegetstart.thankyou:
+  path: '/pegetstart/thankyou' 
+  defaults: 
+    _controller: '\Drupal\pegetstart\Controller\PEGetStartController::thankyou' 
+    _title: 'Thank You'
+  requirements: 
+    _permission: 'access content' 
